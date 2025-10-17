@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Currículo — Kethleen Gonçalves</title>
+
+  <style>
+    body {
+      text-align: center;
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 0;
+    }
+
+    main {
+      background: #fff;
+      width: 80%;
+      margin: 20px auto;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      text-align: left;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 5px;
+    }
+
+    /* FOTO DE PERFIL COM BORDA SUAVE */
+    .foto-perfil {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin: 10px 0 20px 0;
+
+      /* borda semi-transparente + sombra leve */
+      border: 3px solid rgba(26, 78, 216, 0.25); /* azul claro translúcido */
+      box-shadow: 0 0 12px rgba(0, 0, 0, 0.08);  /* sombra suave */
+      transition: all 0.3s ease;
+    }
+
+    /* Efeito ao passar o mouse (hover) (opcional, só deixa mais bonito) */
+    .foto-perfil:hover {
+      border-color: rgba(26, 78, 216, 0.4);
+      box-shadow: 0 0 18px rgba(0, 0, 0, 0.15);
+      transform: scale(1.02);
+    } 
+     header p {
+     margin-top: 0px; /* antes era maior, diminui para aproximar da foto */
+     margin-bottom: 20px; /* mantém um espaçamento depois do texto */
+    }
+
+     header ul {
+      list-style: none;
+      padding: 0;
+      margin: 10px auto;
+      display: inline-block;
+      text-align: center; /* mudou de left para center */
+    }
+
+     header ul li {
+     text-align: center; /* mantém centralizado */
+     margin-bottom: 5px;
+    }
+
+
+    h1 {
+      color: #2b2b2b;
+      margin-bottom: 5px;
+    }
+
+    h2 {
+      color: #1a4ed8;
+      margin-top: 2px;
+    }
+
+    a {
+      color: #1a4ed8;
+      text-decoration: none;
+    }
+
+    /* Deixa Formação e Objetivo lado a lado */
+    .info-grid {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .info-grid section {
+      flex: 1;
+      min-width: 280px;
+      background: #f7f7f7;
+      padding: 15px;
+      border-radius: 8px;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 20px;
+      color: #666;
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <header>
+      <h1>Kethleen Gonçalves</h1>
+
+      <!-- Foto com borda suave -->
+      <img src="perfil.jpeg" alt="Foto de perfil de Kethleen Gonçalves" class="foto-perfil">
+
+      <p>Brasileira, solteira, 19 anos</p>
+
+      <ul>
+        <li><strong>Bairro:</strong> Jardim Sapopemba - SP</li>
+        <li><strong>Telefone:</strong> (11) 91774-3291</li>
+        <li><strong>E-mail:</strong> 
+          <a href="mailto:kethleeng06@gmail.com">kethleeng06@gmail.com</a>
+        </li>
+        <li><strong>LinkedIn:</strong> 
+          <a href="https://www.linkedin.com/in/kethleen-gon%C3%A7alves06/" target="_blank">linkedin.com/in/kethleen-gonçalves06</a>
+        </li>
+        <li><strong>GitHub:</strong> 
+          <a href="https://github.com/Kethleen06" target="_blank">github.com/Kethleen06</a>
+        </li>
+      </ul>
+    </header>
+
+    <!-- Formação Acadêmica e Objetivo lado a lado -->
+    <div class="info-grid">
+      <section>
+        <h2>FORMAÇÃO ACADÊMICA</h2>
+        <p>Ensino Médio - Completo<br>
+        E.E. Professor Rubens Moreira da Rocha</p>
+      </section>
+
+      <section>
+        <h2>OBJETIVO</h2>
+        <p>Área de Desenvolvimento em T.I, Administrativo.</p>
+      </section>
+    </div>
+
+    <section>
+      <h2>CURSOS COMPLEMENTARES</h2>
+
+      <h3>IOS - Instituto da Oportunidade Social - Desenvolvimento Web</h3>
+      <p><strong>Conclusão:</strong> Dezembro/2025 -<strong> Carga Horária: </strong>300 horas</p>
+      <ul>
+        <li>HTML</li>
+        <li>Git e GitHub</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Soft Skills</li>
+        <li>Projeto Integrador</li>
+      </ul>
+
+      <h3>Curso Completo de Informática - WebTec Informática</h3>
+      <p><strong>Conclusão: </strong>09/2022 - <strong>Carga horária:</strong> 120 horas</p>
+      <ul>
+        <li>Internet</li>
+        <li>Hardware e Software</li>
+        <li>Banco de Dados</li>
+        <li>Sistema Operacional</li>
+        <li>Word, PowerPoint e Excel 2019</li>
+      </ul>
+
+      <h3>Curso de Inglês - IFSUL</h3>
+      <p><strong>Conclusão:</strong> Dezembro/2025 - <strong>Carga Horária:</strong> 180 horas</p>
+    </section>
+
+    <section>
+      <h2>EXPERIÊNCIAS PROFISSIONAIS</h2>
+
+      <p><strong>Atlas Schindler</strong><br>
+      <strong>Cargo:</strong> Jovem Aprendiz Administrativo<br>
+      <strong>Período:</strong> 21/03/2025 – atual<br>
+      <strong>Principais atividades:</strong> auxiliar em rotinas administrativas, atendimento a clientes e colaboradores, foco na área de logística, elaboração de planilhas e relatórios, inserção de informações no sistema.</p>
+
+      <p><strong>Supermercado Agari</strong><br>
+      <strong>Cargo:</strong> Estágio em auxiliar geral<br>
+      <strong>Período:</strong> 05/2023 – 07/2023<br>
+      <strong>Atividades:</strong> atendimento ao cliente, caixa, hortifrúti, organização e higienização.</p>
+
+      <p><strong>Craft Caligrafia</strong><br>
+      <strong>Cargo:</strong> Estágio em auxiliar<br>
+      <strong>Período:</strong> 02/2024 – 04/2024<br>
+      <strong>Atividades:</strong> auxiliar na produção gráfica de convites e demais tarefas da área.</p>
+
+      <p><strong>McDonald's</strong><br>
+      <strong>Cargo:</strong> Atendente II – CLT<br>
+      <strong>Período:</strong> 09/2024 – 01/2025<br>
+      <strong>Atividades:</strong> atendimento ao cliente, drive-thru e apoio de balcão.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Kethleen Gonçalves</p>
+  </footer>
+</body>
+</html>
