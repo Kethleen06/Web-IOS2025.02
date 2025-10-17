@@ -1,0 +1,5 @@
+/* CSS em um aquivo externo, possibilitando utilizar os mesmo estilos em várias páginas HTML */
+
+p{
+    background-color: lightblue;
+}
