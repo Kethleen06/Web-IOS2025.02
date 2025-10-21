@@ -1,0 +1,23 @@
+/* Para invocar um ID DO HTML dentro do CSS colocamos # antes dp npme do ID, com no exemplo abaixo em que selecionamos apenas o parágrafo que tem id #assinatura */
+
+#assinatura {
+    background-color: lightgrey;
+}
+
+
+#preto {
+    background-color: rgb(117, 160, 240);
+    color: rgb(5, 50, 90);
+}
+#rosa{
+    background-color: pink;
+    color: aliceblue;
+}
+#roxo {
+    background-color: purple;
+    color: aliceblue;
+}
+p, h2 {
+    background-color: black;
+    color: white;
+}

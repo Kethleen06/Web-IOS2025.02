@@ -1,0 +1,15 @@
+.frutas{
+    background-image: url(frutas.jpg);
+   
+}
+.carro{
+    background-image: url(impala_dean.jfif);
+
+}
+
+.listas {
+    height: 450px;
+    width: 450px;
+    color: white;
+    font-size: 35px;
+}
