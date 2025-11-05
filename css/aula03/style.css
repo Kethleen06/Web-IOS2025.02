@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /* Ajuda a garantir o layout sem problemas de margin/padding */
+}
+
+header {
+    background-color: rgb(240, 240, 255);
+    display: flex;
+    justify-content: space-around; /* Disposição horizontal dos itens dentro do header */
+    align-items: center;           /* Centraliza verticalmente no header */
+    height: 100px;
+}
+
+.quadrado {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(43, 38, 87);
+    border: 1px solid rgb(255, 255, 255);
+    margin: 20px;
+}
+
+#container {
+    background-color: rgb(102, 80, 145);
+    display: flex;
+    flex-direction: column;    /* Organiza os itens na vertical */
+    justify-content: center;   /* Centraliza os itens verticalmente */
+    align-items: center;       /* Centraliza os itens horizontalmente */
+    height: 600px;             /* Altura total do container */
+}
+
+img {
+    width: 320px;
+    height: 210px;
+    margin-bottom: 20px; /* Espaço entre imagem e botão */
+}
+
+h2 {
+    color: rgb(44, 19, 68);
+    margin-bottom: 20px; /* Espaço entre o título e o próximo item */
+}
+
+button {
+    height: 40px;          /* Aumentei a altura do botão para tornar mais visível */
+    width: 150px;
+    background-color: rgb(43, 38, 87);
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center; /* Centraliza o texto dentro do botão */
+    align-items: center;
+}
+
+button:hover {
+    background-color: rgb(33, 28, 67); /* Cor de hover do botão */
+}
