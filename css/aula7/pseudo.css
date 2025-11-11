@@ -1,0 +1,48 @@
+:root {
+    --corPrincipal: #6648b8;
+    --corInicial: aqua;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.quadrado {
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(135deg, blue, purple);
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+
+.quadrado:hover {
+    width: 220px;
+    height: 220px;
+    background: linear-gradient(135deg, purple, blue);
+}
+
+a:link {
+    color: rgb(144, 31, 196);
+    font-size: 40px;
+
+}
+
+h1 {
+    color: var(--corPrincipal)
+}
+
+span {
+    background-color: var(--corPrincipal);
+}
+
+p:first-child {
+    color: blue;
+}
+
+#Sherk::first-letter{
+
+font-size: 45px;
+
+}
