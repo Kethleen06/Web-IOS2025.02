@@ -5,7 +5,7 @@
 }
 
 header {
-    background-color: rgb(240, 240, 255);
+    background-color: rgb(247, 244, 239);
     display: flex;
     justify-content: space-around; /* Disposição horizontal dos itens dentro do header */
     align-items: center;           /* Centraliza verticalmente no header */
@@ -15,7 +15,7 @@ header {
 .quadrado {
     height: 100px;
     width: 100px;
-    background-color: rgb(43, 38, 87);
+    background-color: rgb(255, 235, 205);
     border: 1px solid rgb(255, 255, 255);
     margin: 20px;
 }
@@ -43,7 +43,7 @@ h2 {
 button {
     height: 40px;          /* Aumentei a altura do botão para tornar mais visível */
     width: 150px;
-    background-color: rgb(43, 38, 87);
+    background-color: rgb(248, 236, 217);
     color: white;
     border: none;
     cursor: pointer;
